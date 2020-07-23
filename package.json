@@ -1,0 +1,91 @@
+{
+  "_from": "git+https://github.com/CoinSpace/insight-bcash-ui.git",
+  "_id": "insight-bcash-ui@0.3.3",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/insight-bcash-ui",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "insight-bcash-ui@git+https://github.com/CoinSpace/insight-bcash-ui.git",
+    "name": "insight-bcash-ui",
+    "escapedName": "insight-bcash-ui",
+    "rawSpec": "git+https://github.com/CoinSpace/insight-bcash-ui.git",
+    "saveSpec": "git+https://github.com/CoinSpace/insight-bcash-ui.git",
+    "fetchSpec": "https://github.com/CoinSpace/insight-bcash-ui.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/CoinSpace/insight-bcash-ui.git#7576cc164628e5b56c802a42258130c487187442",
+  "_spec": "insight-bcash-ui@git+https://github.com/CoinSpace/insight-bcash-ui.git",
+  "_where": "/home/sotatek/private-fullnodes/bch",
+  "bitcoreNode": "bitcore-node",
+  "bugs": {
+    "url": "https://github.com/bitpay/insight/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Matias Alejo Garcia",
+      "email": "ematiu@gmail.com"
+    },
+    {
+      "name": "Manuel Araoz",
+      "email": "manuelaraoz@gmail.com"
+    },
+    {
+      "name": "Mario Colque",
+      "email": "colquemario@gmail.com"
+    },
+    {
+      "name": "Gustavo Cortez",
+      "email": "cmgustavo83@gmail.com"
+    },
+    {
+      "name": "Juan Ignacio Sosa Lopez",
+      "email": "bechilandia@gmail.com"
+    },
+    {
+      "name": "Eugene Krevenets",
+      "email": "ievgenii.krevenets@gmail.com"
+    }
+  ],
+  "dependencies": {},
+  "deprecated": false,
+  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the bitcoin network and build your own services with it.",
+  "devDependencies": {
+    "bower": "~1.2.8",
+    "grunt": "~0.4.2",
+    "grunt-angular-gettext": "^0.2.15",
+    "grunt-cli": "~0.1.11",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-uglify": "~0.3.2",
+    "grunt-contrib-watch": "*",
+    "grunt-css": "~0.5.4",
+    "grunt-macreload": "*",
+    "grunt-markdown": "~0.5.0"
+  },
+  "homepage": "https://github.com/bitpay/insight",
+  "keywords": [
+    "insight",
+    "blockchain",
+    "blockexplorer",
+    "bitcoin",
+    "bitcore",
+    "front-end"
+  ],
+  "license": "MIT",
+  "name": "insight-bcash-ui",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bitpay/insight.git"
+  },
+  "scripts": {
+    "build": "grunt compile"
+  },
+  "version": "0.3.3"
+}
